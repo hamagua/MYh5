@@ -13,12 +13,14 @@
            background:url( 9585503_123904666167_2.jpg)
        }
      img{
-           border:5px inset grey;
-           padding: 10px;
-           margin:20px 30px;
+           
+           padding: 0px;
+           margin:0px;
            height: 100px;
+           width: 100px;
            display: block;
-          float: left;
+     float: left;
+          position: relative;
        }
 p{
            border:5px inset grey;
@@ -43,11 +45,28 @@ p{
            float: left;
            width: 90%;
        }
+       .yi{
+           background: #66ccff;
+           font-size:10px;
+           position: absolute;
+           bottom: 5px;
+           right: 5px; 
+       }
+       .block{
+           width: 110px;
+           height: 110px;
+           border:10px inset #cccccc;
+           padding: 10px;
+           position: relative;
+           margin: 5px;
+           float: left;
+           display: inline;
+       }
        @keyframes my{
             from{opacity:0;margin-top: 500px;background:#66ccff}         
        to{opacity:100;margin-top: 20px;background:violet}
         }
-    img,p,span{
+    div,p,span{
         animation:my 7s ;
     }
     @keyframes mys{
@@ -60,16 +79,63 @@ p{
     </style>
 </head>
 <body>
-        <audio src="../music/五月天 - I Love You 无望.mp3" controls="conreols"  autoplay="autoplay"></audio>
+    <audio src="../music/五月天 - I Love You 无望.mp3" controls="conreols"  autoplay="autoplay"></audio>
     <p><b>新学了一招</b></p>
-    <img src="mmexport1564320364667.jpg" ></img>
+    <div class="block">
+    <img src="mmexport1564320364667.jpg">
+    <div class="yi">
+        7月27日第一张
+    </div>
+    </img>
+    </div>
+    <div class="block">
     <img src="mmexport1564320367881.jpg"></img>
-    <img src="mmexport1564320374729.jpg"></img>
-    <img src="mmexport1564320387484.jpg"></img>
-    <img src="微信图片_20190729215346.jpg"></img>
-    <img src="微信图片_20190729215404.jpg"></img>
-    <img src="微信图片_20190730214917.jpg"></img>
-    <img src="微信图片_20190731225756.png"></img>
+    <div class="yi">
+            7月27日第二张
+        </div>
+    </div>
+    <div class="block">
+    <img src="mmexport1564320374729.jpg">
+    <div class="yi">
+    信息缺失
+</div>
+</img>
+    </div>
+    <div class="block">
+            <img src="mmexport1564320387484.jpg">
+        <div class="yi">
+            信息缺失
+        </div>
+            </img>
+    </div>
+    <div class="block">
+                <img src="微信图片_20190729215346.jpg">
+                <div class="yi">
+                7月29日第一张
+            </div>
+            </img>
+    </div>
+    <div class="block">
+        <img src="微信图片_20190729215404.jpg">
+        <div class="yi">
+         7月29日 第二张
+        </div>
+        </img>
+    </div>
+    <div class="block">
+    <img src="微信图片_20190730214917.jpg">
+    <div class="yi">
+    7月30日第一张
+    </div>
+    </img>
+    </div>
+    <div class="block">
+        <img src="微信图片_20190731225756.png">
+            <div class="yi">
+            7月31日第一张
+            </div>
+        </img>
+    </div>
     <span id=ziji>可以动起来了哈哈哈</span>
 
 </body>
