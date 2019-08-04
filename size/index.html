@@ -13,7 +13,6 @@
            background:url( 9585503_123904666167_2.jpg)
        }
      img{
-           
            padding: 0px;
            margin:0px;
            height: 100px;
@@ -22,7 +21,7 @@
      float: left;
           position: relative;
        }
-p{
+    p{
            border:5px inset grey;
            padding: 10px;
            margin: 20px 30px;
@@ -63,10 +62,10 @@ p{
            display: inline;
        }
        @keyframes my{
-            0%{opacity:0;margin-top: 500px;background:#66ccff ;width: 100px}         
-       50%{opacity:100;margin-top: 20px;background:violet;width: 500px}
-       75%{opacity:100;margin-top: 500px;background:green;width: 1000px}
-       100%{opacity:100;margin-top: 20px;background:yellow;width: 500px}
+            0%{opacity:0;margin-top: 500px;background:#66ccff}         
+       50%{opacity:100;margin-top: 20px;background:violet}
+       75%{opacity:100;margin-top: 500px;background:green}
+       100%{opacity:100;margin-top: 20px;background:yellow}
         }
     div,p,span{
         animation:my 7s ;
@@ -79,83 +78,133 @@ p{
       100%{opacity:0}
         }
         body{
-        animation:mys 3s ;animation-timing-function: linear
+        animation:mys 3s ;animation-timing-function: linear   
+    }
+    #a{
+        background-color:lightgreen;
+        animation:a 3s infinite;
+    }
+    #se{
+        
+        animation:se 3s red infinite;
+    }
+    #c{
+        background-color:blue;
+        animation:c 3s infinite;
+    }
+    #d{
+        background-color:black;
+        color:white;
+        animation:d 3s infinite;
+    }
+    @keyframes a{
+        0%{opacity:0}
+        20%{opacity:100;}
+        40%{opacity:0}
+        60%{opacity:0}
+        80%{opacity: 0;}
+        100%{opacity:0;}
+    }
+    @keyframes se{
+        0%{opacity:0}
+        20%{opacity: 0;}
+        40%{opacity:100}
+        60%{opacity:0}
+        80%{opacity: 0;}
+        100%{opacity:0;}
+    }
+    @keyframes c{
+        0%{opacity:0}
+        20%{opacity: 0;}
+        40%{opacity:0}
+        60%{opacity:100}
+        80%{opacity: 0;}
+        100%{opacity:0;}
+    }
+    @keyframes d{
+        0%{opacity:0}
+        20%{opacity: 0;}
+        40%{opacity:0}
+        60%{opacity:0}
+        80%{opacity:100;}
+        100%{opacity:0;}
     }
     </style>
 </head>
 <body>
     <audio src="../music/五月天 - I Love You 无望.mp3" controls="conreols"  autoplay="autoplay"></audio>
     <p><b>新学了一招</b></p>
-    <div class="block">
+    <div class="block" id="a">
     <img src="mmexport1564320364667.jpg">
     <div class="yi">
         7月27日第一张
     </div>
     </img>
     </div>
-    <div class="block">
-    <img src="mmexport1564320367881.jpg"></img>
+    <div class="block" id="se">
+    <img src="mmexport1564320367881.jpg">
     <div class="yi">
             7月27日第二张
         </div>
+    </img>
     </div>
-    <div class="block">
+    <div class="block" id="c">
     <img src="mmexport1564320374729.jpg">
     <div class="yi">
     信息缺失
 </div>
 </img>
     </div>
-    <div class="block">
+    <div class="block" id="d">
             <img src="mmexport1564320387484.jpg">
         <div class="yi">
             信息缺失
         </div>
             </img>
     </div>
-    <div class="block">
+    <div class="block" id="5">
                 <img src="微信图片_20190729215346.jpg">
                 <div class="yi">
                 7月29日第一张
             </div>
             </img>
     </div>
-    <div class="block">
+    <div class="block" id="6">
         <img src="微信图片_20190729215404.jpg">
         <div class="yi">
          7月29日 第二张
         </div>
         </img>
     </div>
-    <div class="block">
+    <div class="block" id="7">
     <img src="微信图片_20190730214917.jpg">
     <div class="yi">
     7月30日第一张
     </div>
     </img>
     </div>
-    <div class="block">
+    <div class="block" id="8">
         <img src="微信图片_20190731225756.png">
             <div class="yi">
             7月31日第一张
             </div>
         </img>
     </div>
-    <div class="block">
+    <div class="block" id="9">
         <img src="微信图片_20190801154008.png">
             <div class="yi">
             8月1日第一张
             </div>
         </img>
     </div>
-    <div class="block">
+    <div class="block" id="shi">
         <img src="微信图片_20190802211234.png">
             <div class="yi">
             8月2日第一张
             </div>
         </img>
     </div>
-    <div class="block">
+    <div class="block" id="shier">
         <img src="微信图片_20190804091533.jpg">
             <div class="yi">
             8月3日首次上色
