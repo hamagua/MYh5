@@ -67,6 +67,7 @@ div,p,span{
 100%{opacity:0}
  }
  body{
+    background:url( ../size/9585503_123904666167_2.jpg);
  animation:mys 3s ;animation-timing-function: linear   
 }
 #a{
