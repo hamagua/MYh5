@@ -1,5 +1,13 @@
+div{
+    counter-increment: chaoter;
+}
+div:before{
+    content:counter(chapter,upper-roman)".";
+}
+
 body{
-    background:url( 9585503_123904666167_2.jpg)
+    background:url( 9585503_123904666167_2.jpg);
+    counter-reset: chapter;
 }
 img{
     padding: 0px;
@@ -56,7 +64,7 @@ p{
 75%{opacity:100;margin-top: 500px;background:green}
 100%{opacity:100;margin-top: 20px;background:yellow}
  }
-div,p,span{
+p,span{
  animation:my 7s ;
 }
 @keyframes mys{
