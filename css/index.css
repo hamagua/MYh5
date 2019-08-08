@@ -1,9 +1,4 @@
-div{
-    counter-increment: chaoter;
-}
-div:before{
-    content:counter(chapter,upper-roman)".";
-}
+
 
 body{
     background:url( 9585503_123904666167_2.jpg);
