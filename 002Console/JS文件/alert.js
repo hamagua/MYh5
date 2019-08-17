@@ -6,3 +6,7 @@ alert("你想知道吗？");
 alert("别着急我这就告诉你")
 alert("李佳恒是天才哈哈");
 }
+taolu()
+taolu()
+taolu()
+taolu()
