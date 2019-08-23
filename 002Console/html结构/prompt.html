@@ -8,10 +8,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="">
     <script>
-        var price = prompt("请输入价格"); 
-        var priceoff = prompt("请输入折扣");
-        price=price*priceoff;     
-        alert("现价是"+price);
+       var password=prompt("请输入密码，并确保周围没人")
+       if(password==123){
+           alert("密码正确")
+       }
+       else if(password==456){
+           alert("权限不够，但你可以随便看看")
+       }
+       else{
+           alert("密码错误！！！")
+       }
+       
     </script>
 </head>
 
