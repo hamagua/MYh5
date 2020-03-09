@@ -91,20 +91,20 @@ p,span{
 
 #a{
  background-color:lightgreen;
- animation:a 7s infinite  ;
+ animation:a 7s   ;
 }
 #se{
  background-color:red;
- animation:se 7s infinite  ;
+ animation:se 7s   ;
 }
 #c{
  background-color:blue;
- animation:c 7s infinite  ;
+ animation:c 7s   ;
 }
 #d{
  background-color:black;
  color:white;
- animation:d 7s infinite  ;
+ animation:d 7s   ;
 }
 @keyframes a{
  0%{opacity:0}
